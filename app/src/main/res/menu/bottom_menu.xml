@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myday"
+        android:icon="@mipmap/day1"
+        android:title="My day"
+        android:enabled="true"
+        android:contentDescription="My Day"
+
+        app:showAsAction="always"/>
+    <item
+    android:id="@+id/servendays"
+    android:icon="@mipmap/day7"
+    android:title="My 7 days"
+        android:enabled="true"
+    android:contentDescription="My 7 days"
+    app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/allTasks"
+        android:icon="@mipmap/task"
+        android:title="All tasks"
+        android:enabled="true"
+        android:contentDescription="All tasks"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mycalendar"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="Calendar"
+        android:enabled="true"
+        android:contentDescription="All tasks"
+        app:showAsAction="always"/>
+
+</menu>

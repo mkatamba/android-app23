@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "654902501892",
+    "project_id": "myplaner-8c9cc",
+    "storage_bucket": "myplaner-8c9cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654902501892:android:b5ef6157d8307bec808b51",
+        "android_client_info": {
+          "package_name": "com.miniaimer.asalamaleikum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654902501892-lrdvbop1kmpuekmkuoqckkus5676suh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miniaimer.asalamaleikum",
+            "certificate_hash": "6f7af046f1ec2f0f2b9c6975e10b2737b0d727e4"
+          }
+        },
+        {
+          "client_id": "654902501892-djdqss0el0tqcg0n8qljqo36qr23c2kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAappDePUsr2AjJTr277wVtGlQ2pEBpefo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654902501892-djdqss0el0tqcg0n8qljqo36qr23c2kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

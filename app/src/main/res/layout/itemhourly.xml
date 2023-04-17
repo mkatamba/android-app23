@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_marginHorizontal="10dp"
+    style="@style/Widget.Material3.CardView.Filled"
+    android:layout_height="150dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="10:0010:00 AM AM"
+            android:id="@+id/hourlytext"
+            android:minLines="2"
+            android:maxLines="2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sun"
+            android:id="@+id/imghourly"
+            android:padding="10dp"
+            android:layout_height="60dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="10"
+            android:textSize="24dp"
+            android:id="@+id/nhietdohourly"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

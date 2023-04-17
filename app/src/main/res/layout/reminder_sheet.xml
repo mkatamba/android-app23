@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_height="match_parent">
+
+   <FrameLayout
+    android:id="@+id/standard_bottom_sheet"
+       app:layout_constraintTop_toTopOf="parent"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+       <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+           android:id="@+id/drag_handle"
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+      <androidx.appcompat.widget.LinearLayoutCompat
+          android:layout_width="match_parent"
+          android:layout_marginHorizontal="20dp"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/addtitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:hint="Enter title">
+
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:inputType="text"
+                  android:layout_height="wrap_content"
+                  />
+
+          </com.google.android.material.textfield.TextInputLayout>
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/addcontent"
+              android:layout_marginTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Enter description">
+
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:inputType="text"
+                  android:layout_height="wrap_content"
+                  />
+
+          </com.google.android.material.textfield.TextInputLayout>
+          <androidx.appcompat.widget.LinearLayoutCompat
+              android:layout_width="match_parent"
+              android:weightSum="2"
+              android:layout_height="wrap_content">
+              <Button
+                  style="@style/Widget.Material3.Button.OutlinedButton"
+                  android:id="@+id/setDate"
+                  android:layout_width="wrap_content"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:text="Enter day"
+                  />
+              <Button
+                  style="@style/Widget.Material3.Button.OutlinedButton"
+                  android:id="@+id/setTime"
+                  android:layout_marginLeft="20dp"
+                  android:layout_weight="1"
+                  android:layout_width="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:layout_height="wrap_content"
+                  android:text="Enter time"
+                  />
+          </androidx.appcompat.widget.LinearLayoutCompat>
+
+          <Button
+              style="@style/Widget.Material3.Button.ElevatedButton"
+              android:id="@+id/add"
+              android:layout_width="match_parent"
+              android:layout_marginTop="30dp"
+              android:layout_marginBottom="300dp"
+              android:layout_height="wrap_content"
+              android:text="Submit"
+              />
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </FrameLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
